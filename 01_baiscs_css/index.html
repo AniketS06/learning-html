@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<link rel="stylesheet" href="style.css"><!--CSS can be linked to html in three ways 1) in line css it is written along html tag, 2) internal css it is linked in head tag of html using style attribute all css codes is written in that only, 3) external css it used by using link attribute its code is written in seperate css file then linked to html file using link attribute -->
+
 </head>
-<body>
-    <main>
-        <h1>Hello</h1>
-    </main>
+<body> <!--* means universal selector it selects all the tags in html hence in priority list it comes at lowest-->
+    <div class="div1"> <!--padding attribute specifies how much space should be left out between edges and inner elements of a div-->
+     <!-- margin attributes specifies the space between the outer elements and the div-->   
+     <h1 class="h1tag" ></h1>
+      <div></div>
+    </div>
+
+
+   
+    <!--there is heirarchy in which css considers which type of css code to identify and select and the types are in priority wise is 1) id attrubute put # to use this at starting , 2) class attribute put . in start of code  , 3) tag name attribute i.e h1 , h2-->
+
+    <!--font size has 6 units 1st is px it is independent
+    2) % it is in proportion to its parent which is body it takes its value according to size of body
+    3) rem it takes its value like value of rem multiplied by value of its parent which is root element which is html tag
+    4) em it takes value according to its parent too just like rem but it takes value of its closet parent for eg a class or body if there is no closet parent it will its value according to html tag/root element (baap element
+    5) vw is independent its value is proportion to screen width if screen width minimised its value will decrease too
+    6) vh is just like vw but its value changes according to screen height-->
+
+    <!--padding and marging whatever the fuck these two create the mess can be cleaned up by slelcting universal selecter * and making margin and padding to 0 and applying attribute box sizing border box
+    IT will basically the boiler plate for CSS -->
+   
+    
+   
 </body>
 </html>
