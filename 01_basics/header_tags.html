@@ -1,12 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><!--doctype means type of document. It is used to tell the browser that this is an HTML5 document.-->
+
+<html lang="en"> <!--lang attribute specifies the language of the document. In this case, it is set to English.-->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--meta charset specifies the character encoding for the HTML document. UTF-8 is a widely used encoding that supports many characters from different languages.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <script src="script.js"></script>
+<body>  <!--body tag has info which has to be displayed to user-->
+    <span><!--div tag is basically a container to wrap elements into and it is a block container meaning taking width of whole column -->
+<h1 title="ye toh pehli heading hai" class="heading" id="heading1" >Hello World</h1> <!--id is given to a specific element only same id can not be given to any other element. -->
+<!--title is given to a element which shows the text when we hover on that element in browser.-->
+<h2 class="heading">sub heading </h2> <!--class is given to a group of elements to show they belong to same group.-->
+<h3 class="heading">sub sub heading </h3>
+</span> <!--span tag is a in line container meaning the element wrapped in span will the space which it requires only not more than that-->
+<p>Lorem ipsum, dolor sit amet consectetur elit.<br> Possimus omnis, corrupti <i>voluptatem</i> id dignissimos facilis, ipsum labore laudantium officiis exercitationem natus dolores rerum <hr> aliquam explicabo  <b>minima</b> <b>quaerat</b> quae maxime. <b><i>Dolore</i></b> maxime est nulla nemo, asperiores minus amet praesentium error, ducimus, incidunt deleniti voluptatibus</p> <!--hr tag is used to create a horizontal line which seperates the content.-->
+<!--br tag is used to break the line and take the content to next line.-->
+<div> <a target="_blank" href="https://youtube.com">youtube</a></div> <!-- a tag is anchor tag used to join the link in a element. -->
+  <!-- target="_blank is used to open the link in new tab. --> 
+   <img width="200" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR81bNIEaGCzdwl2QV5sIrD4JXpsyk1smkr4psQ6MhDvA8lGy5_6Y4sEyk&s=10" alt="girl image">
+<video width="400" height="400" autoplay controls src="https://www.pexels.com/download/video/39008210/"></video>
+<audio controls src="">http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3</audio>   
+
+<ol> 
+    <li>sushil</li>
+    <li>kartik</li>
+    <li>ambuj</li>
+    </ol>
+
+   <ul>
+    <li>sushil</li>
+    <li>kartik</li>
+    <li>ambuj</li>
+    <li>sushil</li>
+    <li>kartik</li>
+    <li>ambuj</li>
+   </ul>
+
+    <table>
+        <thead>
+            <th>name</th>
+            <th>age</th>
+            <th>city</th>
+        </thead>
+        <tbody>
+           <tr>
+<td>aniket</td>
+<td>20</td>
+<td>bhusawal</td>
+           </tr>
+                 <tr>
+<td>aniket</td>
+<td>20</td>
+<td>bhusawal</td>
+           </tr>
+      <tr>
+<td>aniket</td>
+<td>20</td>
+<td>bhusawal</td>
+           </tr>
+      <tr>
+<td>aniket</td>
+<td>20</td>
+<td>bhusawal</td>
+           </tr>
+
+
+        </tbody>
+    </table>
+<form action="https://amazon.com"> 
+    <label for="name">Name</label> <!--label is used to indicate which spacde to fill by higlighting the space needed to fill when clicked in form-->
+<input id="name" placeholder="enter your name" type="text">
+ <label for="email">email</label>
+<input required id="email" placeholder="enter your email"type="email"><!--required tag is used when the specific info needs to be filled manditorily without it form can not be submitted.-->
+<input placeholder="date"type="date"> <!--placeholder tag is used to show what info to be filled in the box.-->
+<input placeholder="enter your contact number"type="number">
+<textarea name="text" id="text">enter text</textarea> <!--textarea used when multiple line of input need to be fillled with pressing enter button.-->
+<select name="category" id="category"><option>option1</option>
+<option>option1</option>
+<option>optio2</option>
+<option>optin3</option>
+<option>opion4</option>
+<option>option5</option>
+<option>option6</option> <!--option tag used to create options to select from in form-->
+</select>
+<input type="submit">
+
+
+
+
+
+</form>
+
+<iframe src="https://www.flipkart.com" frameborder="100"></iframe><!--iframe used to display another into our site-->
+<!--SEO stands for search engine optimization which can be improved by using appropriate title , meta description , semantic tags-->
+
 </body>
 </html>
